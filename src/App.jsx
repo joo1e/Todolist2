@@ -1,9 +1,12 @@
 import Header from "./components/layout/Header";
+import TodoController from "./components/todo/Todocontroller";
+
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <TodoController />
+    </>
   );
 };
 
