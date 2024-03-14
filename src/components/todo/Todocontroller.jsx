@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TodoForm from "./TodoForm";
-import Todolist from "./Todolist";
+import Todolist from "./TodoList";
 
 const todoObj = {
   id: 1,

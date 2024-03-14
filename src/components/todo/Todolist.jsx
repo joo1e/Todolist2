@@ -1,16 +1,16 @@
-import TodoItem from "./Todoitem";
+import TodoItem from "./TodoItem";
 
-const Todolist = ({ todos }) => {
+const TodoList = ({ todos }) => {
   return (
     <section>
       <h2>Working</h2>
       <ul>
         {todos.map((todos) => (
-          <TodoItem key={todos.id} todo={todo} />
+          <TodoItem key={todos.id} todo={todos} />
         ))}
       </ul>
     </section>
   );
 };
 
-export default Todolist;
+export default TodoList;
